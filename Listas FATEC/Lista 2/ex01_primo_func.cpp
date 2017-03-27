@@ -4,11 +4,13 @@
 
 #include <stdio.h>
 #include <conio.h>
-
+/*
+1. Escreva uma função que recebe um inteiro positivo m e devolve 1 se m é primo, 0 caso contrário.
+*/
 
 int primo(int m){
 	
-	int ak=0, k=1, op=1;
+	int ak=0, k=1;
 			
 	for (k ; k<=m ; k++){
 		if (!(m%k)) {
