@@ -29,7 +29,7 @@ int buscaMenor(int vetor[], int *indice){
   return menor;
 }
 
-void main(int argc, char const *argv[]) {
+void main() {
 
   int vetor[100];
   int indice;
